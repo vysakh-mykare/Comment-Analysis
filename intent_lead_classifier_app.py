@@ -3,9 +3,6 @@ import openai
 # from openai.api_resources import Engine
 import os
 
-openai.api_key = "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"
-
-
 def classify_comment(comment):
     completion = openai.Completion.create(
         model="gpt-3.5-turbo-instruct",
