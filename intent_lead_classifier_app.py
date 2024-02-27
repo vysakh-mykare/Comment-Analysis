@@ -3,7 +3,7 @@ import openai
 # from openai.api_resources import Engine
 import os
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def classify_comment(comment):
