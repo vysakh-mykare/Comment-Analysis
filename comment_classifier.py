@@ -30,7 +30,7 @@ def to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 # Streamlit app
-st.title('Sentiment Analysis with OpenAI')
+st.title('Welcome to Intent Detective: Lead Classification Tool')
 
 # Single comment analysis
 st.subheader("Single Comment Analysis")
