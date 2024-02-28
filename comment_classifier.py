@@ -5,7 +5,7 @@ import pandas as pd
 import os
 from io import BytesIO
 
-openai.api_key = 
+openai.api_key =  st.secrets.openai_key
 
 
 def classify_comment(comment):
